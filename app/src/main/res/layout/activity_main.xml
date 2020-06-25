@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button_camera"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:text="@string/resim_ek"></Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_from_phone"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="galeriden al"></Button>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="313dp"
+        tools:srcCompat="@tools:sample/avatars[0]"></ImageView>
+
+    <Button
+        android:id="@+id/segment2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Sıkıştırma"></Button>
+
+    <Button
+        android:id="@+id/segment"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:text="Segmentasyon"></Button>
+
+</LinearLayout>
